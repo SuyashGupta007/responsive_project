@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useEffect, useRef } from 'react';
 import Page1 from '@/components/Page1';
 import Page2 from '@/components/Page2';
+import Page3 from '@/components/Page3';
 
 
 export default function Home() {
@@ -28,11 +29,8 @@ export default function Home() {
     <div className="main bg-[#222] overflow-x-hidden scroll-smooth " >
       <Page1 />
       <Page2 />
-     
-      <div className="page3 relative h-[75vh] bg-[#C4BCB3] ">
-        <h1  className='text-[450px] font-canopee bg-[#1C1C19] text-[#C4BCB3] w-fit ml-[2%] px-5 font-thin tracking-[-10px] leading-[500px]'>Website</h1>
-        <img  className='h-[400px] absolute top-0 right-[3%] ' src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png" alt="" />
-      </div>
+     <Page3 />
+      
       <div className="page4 h-screen w-full flex items-center bg-[#C4BCB3] justify-between ">
         <div className="page4-left  w-[65%] h-full py-[80px] px-[60px] ">
           <img className='h-full w-full object-cover' src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c679f33f67d3dd00b04b4_avatar-3.jpeg" alt="" />

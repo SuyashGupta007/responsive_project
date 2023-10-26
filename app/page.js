@@ -3,6 +3,7 @@ import 'remixicon/fonts/remixicon.css';
 import gsap from "gsap";
 import { useEffect, useRef } from 'react';
 import Page1 from '@/components/Page1';
+import Page2 from '@/components/Page2';
 
 
 export default function Home() {
@@ -26,18 +27,8 @@ export default function Home() {
   return (
     <div className="main bg-[#222] overflow-x-hidden scroll-smooth " >
       <Page1 />
-       
-      <div className='page2 h-[180vh] w-full bg-[#C4BCB3] flex items-center justify-between py-20 px-12' >
-        <div className="page2-left  h-full w-[35%] pr-12 border-r border-solid border-[#222] ">
-          <h2 className='text-[150px] font-canopee text-center leading-[150px] font-thin' >Interative <span className='text-[210px] font-[900] '>artist!</span></h2>
-          <img className='h-1/2 w-full object-cover' src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg" alt="" />
-          <p className='text-2xl font-sans text-[#2f2f2f] mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sequi, officia delectus consequatur sed nihil cupiditate, in impedit, fugit consequuntur eveniet! Odit, quaerat exercitationem sit ipsa odio minus numquam modi!</p>
-        </div>
-        <div className="page2-right h-full w-[70%] px-12  ">
-          <img className='h-[53%] w-full object-cover ' src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg" alt="" />
-          <h1 className='font-canopee text-8xl tracking-[-1px] font-thin '><span>Digital Art Director</span> <span>Interactive Designer</span> <span>Creative Developer </span>Based in AmsterDam,NL.</h1>
-        </div>
-      </div>
+      <Page2 />
+     
       <div className="page3 relative h-[75vh] bg-[#C4BCB3] ">
         <h1  className='text-[450px] font-canopee bg-[#1C1C19] text-[#C4BCB3] w-fit ml-[2%] px-5 font-thin tracking-[-10px] leading-[500px]'>Website</h1>
         <img  className='h-[400px] absolute top-0 right-[3%] ' src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/60474834660f934090d42877_stamp.png" alt="" />

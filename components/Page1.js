@@ -72,7 +72,7 @@ const Page1 = () => {
   </div>
 
   {/* Title */}
-  <h1 className='text-base sm:text-9xl md:text-[15em] lg:text-[22em] xl:text-[35em] 2xl:text-[35em] font-canopee font-thin bg-[#1C1C19] text-[#C4BCB3] leading-[2.5rem] md:leading-[600px] lg:leading-[700px] w-full mx-0 sm:mx-auto sm:w-full tracking-tight flex items-center justify-center h-full'>
+  <h1 className='text-base sm:text-9xl md:text-[15em] lg:text-[22em] xl:text-[30em] 2xl:text-[30em] font-canopee font-thin bg-[#1C1C19] text-[#C4BCB3] leading-[2.5rem] md:leading-[600px] lg:leading-[700px] w-full mx-0 sm:mx-auto sm:w-full tracking-tight flex items-center justify-center h-full'>
   MIRANDA
 </h1>
 
